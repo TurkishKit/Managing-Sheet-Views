@@ -55,8 +55,8 @@
 		3A92885E268B501400F14470 /* SwiftUI - Managing Sheet Views */ = {
 			isa = PBXGroup;
 			children = (
-				3A92886F268B50DC00F14470 /* SheetNavigator.swift */,
 				3A92885F268B501400F14470 /* ManagingSheetViews.swift */,
+				3A92886F268B50DC00F14470 /* SheetNavigator.swift */,
 				3A928861268B501400F14470 /* ContentView.swift */,
 				3A928871268B564500F14470 /* View+Ext.swift */,
 				3A928863268B501500F14470 /* Assets.xcassets */,

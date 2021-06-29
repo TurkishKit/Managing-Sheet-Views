@@ -41,7 +41,9 @@ struct OldExampleView: View {
     // MARK: - View
     var body: some View {
         VStack {
-            Button("Show Sheet", action: { showingSheet = true })
+            Button("Show Sheet") {
+                showingSheet = true
+            }
         }
         .sheet(isPresented: $showingSheet) {
             OldExampleSheetView()
@@ -57,7 +59,9 @@ struct NewExampleView: View {
     // MARK: - View
     var body: some View {
         VStack {
-            Button("Show Sheet", action: { showingSheet = true })
+            Button("Show Sheet") {
+                showingSheet = true
+            }
         }
         .sheet(isPresented: $showingSheet) {
             NewExampleSheetView()
